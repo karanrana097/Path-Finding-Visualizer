@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
+  <script src="Libraries/p5.min.js"></script>
+  <script src="libraries/addons/p5.sound.min.js"></script>
+  <script src="Maze_drawing/sketch.js"></script>
+  <script src="Maze_drawing/cell.js"></script>
+  
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+	<nav class="navbar">
+		<div class="logo_header">
+		  Path finding Visualizer
+		</div>
+	
+		
+		<div class="main_nav">
+		  
+		  <button id="Fmaze">Form Maze </button>
+		  <button id ="Start_point">Add starting point</button>
+	      <button id="End_point">Add End point</button>
+		  <button href="#" id ="show_grid">Toggle Grid View</button>
+		  <button href="#" id = "clr">Clear</button>
+		  <button href="#" id = "obstacle">Draw Blocks</button>
+		  <button href="#" id = "removal">Remove Blocks</button>
+		  <button href="#" id = "bfs">Visualize Bfs</button>
+		</div>
+		  
+	</nav>
+
+ <div>
+</div>
+
+<div id="canvas_holder"> </div>
+
+<script src="Maze_function/add_remove_custom_wall.js"> </script>
+<script src ="Maze_function/add_start_end_point_file.js"> </script>
+<script src = "Maze_function/create_maze.js"></script>
+
+<script src = "Algorithms/data_structures.js" ></script>
+<script src = "Algorithms/BFS.js" ></script>
+<script src= "Algorithms/checker_functions.js" ></script>
+
+</body>
+
+
+</html>  
